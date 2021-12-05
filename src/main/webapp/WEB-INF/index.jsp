@@ -19,7 +19,7 @@
 		<h1 class="fruit">Fruit Store</h1>
 	</div>
 	<div class="table p-3">
-		<table class="table table-striped table-hover">
+		<table class="table table-striped table-hover table2">
  			<thead>
  				<tr>
  					<td>Name</td>
