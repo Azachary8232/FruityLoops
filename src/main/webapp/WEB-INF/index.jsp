@@ -27,10 +27,12 @@
  				</tr>
  			</thead>
  			<tbody>
+ 				<c:forEach var="fruit" items="${fruits}">
  				<tr>
- 					<td>SAMPLE</td>
- 					<td>SAMPLE</td>
+ 					<td><c:out value="${fruit.name}"></c:out></td>
+ 					<td><c:out value="${fruit.price }"></c:out></td>
  				</tr>
+ 				</c:forEach>
  			</tbody>	
 		</table>
 	</div>
